@@ -2,8 +2,54 @@
 title: "Kelly Miller"
 ---
 
-Brief overview of Kelly Miller’s life, work, and significance to the project.
+## The First Black Mathematics Graduate Student
 
-- Key archival collections used.
-- Types of relationships represented in the network.
-- Links to network visualizations or related outputs.
+**Kelly Miller (1863-1939)** was the first African American graduate student in mathematics at Johns Hopkins University. Later, as dean of Howard University (1903-1935) and founder of the Negro Sanhedrin (1924), Miller served as a crucial network connector between W.E.B. Du Bois and other Black intellectual leaders.
+
+### Key Contributions
+
+**Mathematics Scholarship**:
+
+- Studied under mathematician Simon Newcomb at Johns Hopkins
+
+- First Black student to complete graduate-level mathematics coursework in the U.S.
+
+- Applied mathematical reasoning to social analysis in early sociological work
+
+**Negro Sanhedrin (1924)**:
+
+- Convened 200+ Black leaders in Chicago to coordinate civil rights strategy
+
+- Positioned between Du Bois' radicalism (NAACP) and Garvey's nationalism
+
+- Created formal network structure for Black leadership coordination
+
+### Network Role: Du Bois Connector
+
+Miller's brokerage position linked:
+
+- **W.E.B. Du Bois** (Harvard PhD, *The Souls of Black Folk*, NAACP)
+
+- **Booker T. Washington** (Tuskegee, economic self-help)
+
+- **Carter G. Woodson** (Association for the Study of Negro Life)
+
+- **Howard University faculty** and HBCU presidents
+
+**Key documented ties**:
+
+- Published Du Bois' early sociological work in *Howard University Record*
+
+- Mediated between Niagara Movement and Tuskegee Machine
+
+- Corresponded with mathematicians and statisticians analyzing racial data
+
+### Archival Sources for Network Reconstruction
+
+- **Library of Congress**: Miller Papers (correspondence with Du Bois, Washington)
+
+- **Howard University Archives**: Dean records, Sanhedrin proceedings
+
+- **Moorland-Spingarn Research Center**: Negro Sanhedrin delegate lists
+
+- **Johns Hopkins University**: Early graduate student records

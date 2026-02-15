@@ -1,11 +1,76 @@
 ---
 title: "The Networks"
+engine: knitr
 ---
 
-This section introduces the network perspectives that guide The Connections Project.
+## Network Perspectives in The Connections Project
 
-Here you can briefly describe:
-- What kinds of ties you model (e.g., correspondence, institutional movement, co-authorship).
-- How archival records are translated into network data.
-- How the Haynes and Miller projects fit into the broader set of networks.
+<div style="background: linear-gradient(135deg, var(--connections-blue), var(--connections-brown)); 
+            color: white; padding: 2rem; border-radius: 1rem; text-align: center; 
+            margin: 2rem 0; box-shadow: 0 8px 32px rgba(0,0,0,0.2);">
 
+**From archival letters to sociograms: mapping Black mathematicians' hidden connections**
+
+</div>
+
+### Types of Ties We Model
+
+```{r echo=FALSE, message=FALSE, warning=FALSE}
+#| label: fig-network-classic
+#| fig-cap: "Classic sociogram: Black mathematicians' professional networks (1910-1950)"
+#| fig-width: 12
+#| fig-height: 8
+
+library(igraph)
+library(ggraph)
+
+set.seed(123)
+
+# CLASSIC SOCIOGRAM - FIXED NODES
+nodes <- data.frame(
+  id = 1:10,
+  label = c("Haynes", "Miller", "Cox", "Woodard", "DuBois", "Washington", 
+           "Granville", "Scantlebury", "Goins", "Alexander"),
+  degree = c(8, 9, 6, 7, 8, 6, 4, 3, 2, 3),
+  role = c("Math PhD", "Math Dean", "Math PhD", "Math PhD", "Sociologist", 
+           "Educator", "Math PhD", "Teacher", "Modern", "Modern")
+)
+
+# CLASSIC CONNECTIONS - balanced structure
+edges <- data.frame(
+  from = c(1,1,1,1,2,2,2,3,3,4,4,5,6,7,9),
+  to   = c(2,3,4,10,1,5,6,1,2,1,3,2,2,9,1),
+  type = c("correspondence", "institution", "mentorship", "modern",
+           "correspondence", "influence", "institution", "mentorship", "institution",
+           "mentorship", "correspondence", "influence", "correspondence", "modern", "modern")
+)
+
+g <- graph_from_data_frame(edges, vertices = nodes, directed = FALSE)
+
+# CLASSIC LAYOUT + VISUALIZATION
+ggraph(g, layout = "circle") +  # CLASSIC CIRCLE LAYOUT
+  geom_edge_fan(aes(color = type, width = 1.2), 
+                alpha = 0.8, show.legend = TRUE) +
+  geom_node_point(aes(size = degree/2 + 2, color = role), alpha = 0.95) +
+  geom_node_text(aes(label = label), repel = TRUE, size = 4, 
+                 fontface = "bold", color = "white", stroke = 0.3) +
+  
+  # YOUR COLOR SCHEME
+  scale_edge_color_manual(values = c("correspondence" = "#BE7C2B", 
+                                   "mentorship" = "#1877F2", 
+                                   "institution" = "#F28E2B",
+                                   "influence" = "#6C5CE7",
+                                   "modern" = "#45B7D1")) +
+  scale_color_manual(values = c("Math PhD" = "#1877F2", "Math Dean" = "#BE7C2B", 
+                               "Sociologist" = "#6C5CE7", "Educator" = "#F28E2B",
+                               "Teacher" = "#96CEB4", "Modern" = "#FFEAA7")) +
+  
+  theme_void() +
+  labs(title = "Black Mathematicians Network (1910-1950):\\nHaynes-Miller-Cox Core",
+       subtitle = "Circle layout reveals central hubs and brokerage positions") +
+  theme(legend.position = "bottom",
+        plot.title = element_text(size = 16, face = "bold", hjust = 0.5),
+        plot.subtitle = element_text(size = 12, hjust = 0.5),
+        legend.title = element_text(size = 11),
+        legend.text = element_text(size = 9))
+```

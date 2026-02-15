@@ -2,8 +2,20 @@
 title: "The Haynes Project"
 ---
 
-Describe the focus of the Haynes Project and its place within The Connections Project.
+## Exhibiting the Historical Significance of Euphemia Lofton Haynes
 
-- Key questions and archival sources.
-- Network construction choices (nodes, ties, time windows).
-- Early findings or visualizations, if available.
+"The Haynes Project: Exhibiting the Historical Significance of the Philosophical Views of American Mathematicians" is a three-year funded initiative creating a comprehensive digital repository of **Dr. Euphemia Lofton Haynes (1890-1980)** — the first African American woman to earn a PhD in mathematics (Catholic University, 1943). Led by John Stigall (Director, Howard University) and co-director Nathan Alexander (Howard University), this flagship project anchors The Connections Project.
+
+### Core Components
+
+**Network Analysis Focus**
+
+- Haynes was central node connecting HBCU faculty, DC educators, and civil rights mathematicians
+
+- Institutional ties (Smith College, Chicago, Catholic U, Miner Teachers College)
+
+- Professional relationships during school desegregation era
+
+**Philosophical Significance**
+
+The project recovers Haynes' philosophical views on mathematics education, school integration, and Black intellectual networks—lost contributions now digitized for public access and scholarly analysis.
