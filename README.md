@@ -5,6 +5,9 @@ A research initiative exploring archival records and network analysis to illumin
 ## Project team
 
 Nathan Alexander
+
 John Stigall
+
 Terika Harris
+
 Robin Wilson
