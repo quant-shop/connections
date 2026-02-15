@@ -1,0 +1,11 @@
+---
+title: "The Networks"
+---
+
+This section introduces the network perspectives that guide The Connections Project.
+
+Here you can briefly describe:
+- What kinds of ties you model (e.g., correspondence, institutional movement, co-authorship).
+- How archival records are translated into network data.
+- How the Haynes and Miller projects fit into the broader set of networks.
+

@@ -1,0 +1,31 @@
+project:
+  type: website
+
+website:
+  title: "The Connections Project"
+  navbar:
+    background: primary
+    left:
+      - text: "Overview"
+        file: index
+      - text: "Project Team"
+        file: team
+      - text: "The Mathematicians"
+        menu:
+          - text: "The Networks"
+            file: history/networks
+          - text: "The Haynes Project"
+            file: history/haynes
+          - text: "Kelly Miller"
+            file: history/miller
+      - text: "Resources"
+        menu:
+          - text: "Archival Collections"
+            file: resources/archives
+          - text: "Resources"
+            file: resources/other
+
+format:
+  html:
+    theme: cosmo
+    css: styles/styles.css

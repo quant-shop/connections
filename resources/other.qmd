@@ -1,0 +1,9 @@
+---
+title: "Resources"
+---
+
+Resources emerging from The Connections Project, including:
+
+- Datasets and code repositories.
+- Teaching and workshop materials.
+- Related bibliographies or reading lists.

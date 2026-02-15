@@ -1,0 +1,31 @@
+:root {
+  --connections-blue: #1877F2;
+  --connections-brown: #BE7C2B;
+}
+
+/* Navbar background uses Bootstrap primary; override link colors and headings */
+a {
+  color: var(--connections-blue);
+}
+a:hover {
+  color: #0f5ec0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: var(--connections-brown);
+}
+
+/* Smaller navbar items */
+.navbar-nav .nav-link {
+  font-size: 0.9rem;
+}
+
+/* Smaller site title in navbar */
+.navbar-brand {
+  font-size: 0.9rem;
+}
+
+/* Optional: slightly smaller overall text */
+body {
+  font-size: 0.9rem;
+}

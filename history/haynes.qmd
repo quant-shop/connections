@@ -1,0 +1,9 @@
+---
+title: "The Haynes Project"
+---
+
+Describe the focus of the Haynes Project and its place within The Connections Project.
+
+- Key questions and archival sources.
+- Network construction choices (nodes, ties, time windows).
+- Early findings or visualizations, if available.
