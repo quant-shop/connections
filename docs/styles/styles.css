@@ -1,0 +1,54 @@
+:root {
+  --connections-blue: #1877F2;
+  --connections-brown: #BE7C2B;
+}
+
+a { color: var(--connections-blue); }
+a:hover { color: #0f5ec0; }
+h1, h2, h3, h4, h5, h6 { color: var(--connections-brown); }
+
+.navbar-nav .nav-link { font-size: 0.9rem; }
+.navbar-brand { font-size: 0.9rem; }
+body { font-size: 0.9rem; }
+
+/* HERO BACKGROUND - FULL PAGE */
+.hero-background {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-image: url("../img/network-clear-background.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  z-index: -2;
+}
+
+/* Hero content overlay */
+.hero-content {
+  background: rgba(247, 247, 247, 0.55);
+  padding: 4rem 2rem;
+  border-radius: 1.25rem;
+  margin: 6rem auto 2rem;
+  max-width: 900px;
+  backdrop-filter: blur(10px);
+  box-shadow: 0 12px 40px rgba(0,0,0,0.05);
+  z-index: 1;
+  text-align: center;
+}
+
+.team-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+  margin: 2rem 0;
+}
+
+@media (max-width: 768px) {
+  .team-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
