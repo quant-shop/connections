@@ -2,8 +2,16 @@
 title: "Resources"
 ---
 
-Resources emerging from The Connections Project, including:
+### Learn more about Black mathematicians
 
-- Datasets and code repositories.
-- Teaching and workshop materials.
-- Related bibliographies or reading lists.
+| Resource | Description |
+|----------|-------------|
+| [<a href="https://www.math.buffalo.edu/mad/" target="_blank">Mathematicians of the African Diaspora (MAD)</a>](https://www.math.buffalo.edu/mad/) | 700+ profiles of Black mathematicians by Scott Williams. Essential biographical reference for network nodes. |
+| [<a href="https://mathematicallygiftedandblack.com/" target="_blank">Mathematically Gifted & Black](https://mathematicallygiftedandblack.com/) | Daily features on Black mathematicians + Lathisms collaborators. Excellent for discovering additional network actors. |
+| [<a href="https://nam-math.org/" target="_blank">National Association of Mathematicians](https://nam-math.org/) | Professional organization supporting Black mathematicians since 1968. |
+
+### Related scholarship & projects
+
+- **[<a href="https://www.lathisms.org/" target="_blank">Lathisms](https://www.lathisms.org/)**: Latinx & Hispanic in Mathematical Sciences posters featuring Black mathematicians
+- **[<a href="https://maa.org/math-values/black-and-excellent-in-math/" target="_blank">MAA Black Mathematicians](https://maa.org/math-values/black-and-excellent-in-math/)**: Mathematical Association of America resources
+

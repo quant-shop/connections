@@ -1,0 +1,13 @@
+---
+title: "Untitled"
+---
+
+### Network analysis tools
+
+| Tool | Purpose | Language | Link |
+|------|---------|----------|------|
+| [<a href="https://gephi.org/" target="_blank">Gephi</a>](https://gephi.org/) | Network visualization & exploration | Desktop (Java) | Static/dynamic sociograms |
+| [<a href="https://igraph.org/" target="_blank">igraph</a>](https://igraph.org/) | Centrality, clustering, community detection | R/Python/C++ | Quantitative metrics |
+| [<a href="https://ggraph.data-imaginist.com/" target="_blank">ggraph</a>](https://ggraph.data-imaginist.com/) | Publication-quality plots | R | Haynes/Miller sociograms |
+| [<a href="https://tidygraph.data-imaginist.com/" target="_blank">tidygraph</a>](https://tidygraph.data-imaginist.com/) | Tidy data → network objects | R | Archival data pipeline |
+| [<a href="https://networkx.org/" target="_blank">NetworkX</a>](https://networkx.org/) | Algorithmic analysis | Python | Large-scale computation |
