@@ -10,5 +10,5 @@ execute:
 ::: {.hero-content}
 **The Connections Project**
 
-Explore how archival records $\times$ network analysis expands our knowledge of the lives and work of Black mathematicians.
+Hello friends! Welcome to the Connections Project where we explore how archival records $\times$ network analysis expands our knowledge of the lives and work of Black mathematicians.
 :::

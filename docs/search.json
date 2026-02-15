@@ -18,7 +18,7 @@
     "href": "team.html",
     "title": "Project Team",
     "section": "",
-    "text": "John Stigall, PhD\nTerika Harris, PhD\nNathan Alexander, PhD\nRobin Wilson, PhD\n\n\n\n\nHoward UniversityOversees Howard University archival partnerships.\nCity University of New York (CUNY)Postdoctoral Research Fellow.\nHoward UniversityNetwork and computational analyst.\nLoyola Marymount University (LMU)Co-leads archival research coordination."
+    "text": "John Stigall, PhD\nTerika Harris, PhD\nNathan Alexander, PhD\nRobin Wilson, PhD\n\n\n\n\nHoward UniversityCo-PI; oversees archive and project partnerships.\nCity University of New York (CUNY)Postdoctoral Research Fellow and archival research coordinator.\nHoward UniversityCo-PI; network and computational analyst.\nLoyola Marymount University (LMU)Co-leads analysis and archival research coordination."
   },
   {
     "objectID": "team.html#core-team",
@@ -53,7 +53,7 @@
     "href": "index.html",
     "title": "Overview",
     "section": "",
-    "text": "The Connections Project\nExplore how archival records \\(\\times\\) network analysis expands our knowledge of the lives and work of Black mathematicians."
+    "text": "The Connections Project\nHello friends! Welcome to the Connections Project where we explore how archival records \\(\\times\\) network analysis expands our knowledge of the lives and work of Black mathematicians."
   },
   {
     "objectID": "history/haynes.html",
@@ -61,5 +61,12 @@
     "title": "The Haynes Project",
     "section": "",
     "text": "Describe the focus of the Haynes Project and its place within The Connections Project.\n\nKey questions and archival sources.\nNetwork construction choices (nodes, ties, time windows).\nEarly findings or visualizations, if available."
+  },
+  {
+    "objectID": "team.html#funders",
+    "href": "team.html#funders",
+    "title": "Project Team",
+    "section": "Funders",
+    "text": "Funders\n\nNational Endowment for the Humanities"
   }
 ]

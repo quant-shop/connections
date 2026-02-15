@@ -2,11 +2,9 @@
 title: "Project Team"
 ---
 
-## Core team
-
 | **John Stigall, PhD** | **Terika Harris, PhD** | **Nathan Alexander, PhD** | **Robin Wilson, PhD** |
 |:---------------------|:---------------------|:------------------------|:---------------------|
-| <span style="color: var(--connections-brown); font-weight: bold;">Howard University</span><br>Oversees Howard University archival partnerships. | <span style="color: var(--connections-brown); font-weight: bold;">City University of New York (CUNY)</span><br>Postdoctoral Research Fellow. | <span style="color: var(--connections-brown); font-weight: bold;">Howard University</span><br>Network and computational analyst. | <span style="color: var(--connections-brown); font-weight: bold;">Loyola Marymount University (LMU)</span><br>Co-leads archival research coordination. |
+| <span style="color: var(--connections-brown); font-weight: bold;">Howard University</span><br>Co-PI; oversees archive and project partnerships. | <span style="color: var(--connections-brown); font-weight: bold;">City University of New York (CUNY)</span><br>Postdoctoral Research Fellow and archival research coordinator. | <span style="color: var(--connections-brown); font-weight: bold;">Howard University</span><br>Co-PI; network and computational analyst. | <span style="color: var(--connections-brown); font-weight: bold;">Loyola Marymount University (LMU)</span><br>Co-leads analysis and archival research coordination. |
 
 
 ## Collaborators and partners
@@ -16,3 +14,6 @@ title: "Project Team"
 - Susan Kelley
 - David Joyner
 
+## Funders
+
+- National Endowment for the Humanities
