@@ -4,6 +4,62 @@
     "href": "index.html",
     "title": "Overview",
     "section": "",
-    "text": "Welcome to The Connections Project, an initiative exploring how archival records and network analysis can illuminate the lives and work of Black mathematicians. This site introduces our core questions, archival collaborations, and evolving network analyses, and points to project outputs and resources."
+    "text": "The Connections Project\nExplore how archival records \\(\\times\\) network analysis expands our knowledge of the lives and work of Black mathematicians."
+  },
+  {
+    "objectID": "resources/archives.html",
+    "href": "resources/archives.html",
+    "title": "Archival Collections",
+    "section": "",
+    "text": "Descriptions and links to archival collections that underpin The Connections Project.\nOrganize collections by institution, with short notes on how each contributes to the networks you build."
+  },
+  {
+    "objectID": "resources/other.html",
+    "href": "resources/other.html",
+    "title": "Resources",
+    "section": "",
+    "text": "Resources emerging from The Connections Project, including:\n\nDatasets and code repositories.\nTeaching and workshop materials.\nRelated bibliographies or reading lists."
+  },
+  {
+    "objectID": "history/haynes.html",
+    "href": "history/haynes.html",
+    "title": "The Haynes Project",
+    "section": "",
+    "text": "Describe the focus of the Haynes Project and its place within The Connections Project.\n\nKey questions and archival sources.\nNetwork construction choices (nodes, ties, time windows).\nEarly findings or visualizations, if available."
+  },
+  {
+    "objectID": "history/miller.html",
+    "href": "history/miller.html",
+    "title": "Kelly Miller",
+    "section": "",
+    "text": "Brief overview of Kelly Miller’s life, work, and significance to the project.\n\nKey archival collections used.\nTypes of relationships represented in the network.\nLinks to network visualizations or related outputs."
+  },
+  {
+    "objectID": "history/networks.html",
+    "href": "history/networks.html",
+    "title": "The Networks",
+    "section": "",
+    "text": "This section introduces the network perspectives that guide The Connections Project.\nHere you can briefly describe: - What kinds of ties you model (e.g., correspondence, institutional movement, co-authorship). - How archival records are translated into network data. - How the Haynes and Miller projects fit into the broader set of networks."
+  },
+  {
+    "objectID": "team.html",
+    "href": "team.html",
+    "title": "Project Team",
+    "section": "",
+    "text": "John Stigall, PhD\nTerika Harris, PhD\nNathan Alexander, PhD\nRobin Wilson, PhD\n\n\n\n\nHoward UniversityOversees Howard University archival partnerships.\nCity University of New York (CUNY)Postdoctoral Research Fellow.\nHoward UniversityNetwork and computational analyst.\nLoyola Marymount University (LMU)Co-leads archival research coordination."
+  },
+  {
+    "objectID": "team.html#core-team",
+    "href": "team.html#core-team",
+    "title": "Project Team",
+    "section": "",
+    "text": "John Stigall, PhD\nTerika Harris, PhD\nNathan Alexander, PhD\nRobin Wilson, PhD\n\n\n\n\nHoward UniversityOversees Howard University archival partnerships.\nCity University of New York (CUNY)Postdoctoral Research Fellow.\nHoward UniversityNetwork and computational analyst.\nLoyola Marymount University (LMU)Co-leads archival research coordination."
+  },
+  {
+    "objectID": "team.html#collaborators-and-partners",
+    "href": "team.html#collaborators-and-partners",
+    "title": "Project Team",
+    "section": "Collaborators and partners",
+    "text": "Collaborators and partners\n\nEdray Goins\nErica Walker\nSusan Kelley\nDavid Joyner"
   }
 ]

@@ -4,10 +4,10 @@ title: "Project Team"
 
 ## Core team
 
-- Robin Wilson, Loyola Marymount University (LMU)
-- Terika Harris, City University of New York (CUNY)
-- John Stigall, Howard University
-- Nathan Alexander, Howard University
+| **John Stigall, PhD** | **Terika Harris, PhD** | **Nathan Alexander, PhD** | **Robin Wilson, PhD** |
+|:---------------------|:---------------------|:------------------------|:---------------------|
+| <span style="color: var(--connections-brown); font-weight: bold;">Howard University</span><br>Oversees Howard University archival partnerships. | <span style="color: var(--connections-brown); font-weight: bold;">City University of New York (CUNY)</span><br>Postdoctoral Research Fellow. | <span style="color: var(--connections-brown); font-weight: bold;">Howard University</span><br>Network and computational analyst. | <span style="color: var(--connections-brown); font-weight: bold;">Loyola Marymount University (LMU)</span><br>Co-leads archival research coordination. |
+
 
 ## Collaborators and partners
 

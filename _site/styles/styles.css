@@ -3,29 +3,52 @@
   --connections-brown: #BE7C2B;
 }
 
-/* Navbar background uses Bootstrap primary; override link colors and headings */
-a {
-  color: var(--connections-blue);
-}
-a:hover {
-  color: #0f5ec0;
+a { color: var(--connections-blue); }
+a:hover { color: #0f5ec0; }
+h1, h2, h3, h4, h5, h6 { color: var(--connections-brown); }
+
+.navbar-nav .nav-link { font-size: 0.9rem; }
+.navbar-brand { font-size: 0.9rem; }
+body { font-size: 0.9rem; }
+
+/* HERO BACKGROUND - FULL PAGE */
+.hero-background {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-image: url("../img/network-clear-background.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  z-index: -2;
 }
 
-h1, h2, h3, h4, h5, h6 {
-  color: var(--connections-brown);
+/* Hero content overlay */
+.hero-content {
+  background: rgba(247, 247, 247, 0.55);
+  padding: 4rem 2rem;
+  border-radius: 1.25rem;
+  margin: 6rem auto 2rem;
+  max-width: 900px;
+  backdrop-filter: blur(10px);
+  box-shadow: 0 12px 40px rgba(0,0,0,0.05);
+  z-index: 1;
+  text-align: center;
 }
 
-/* Smaller navbar items */
-.navbar-nav .nav-link {
-  font-size: 0.8rem;
+.team-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+  margin: 2rem 0;
 }
 
-/* Smaller site title in navbar */
-.navbar-brand {
-  font-size: 0.9rem;
+@media (max-width: 768px) {
+  .team-grid {
+    grid-template-columns: 1fr;
+  }
 }
 
-/* Optional: slightly smaller overall text */
-body {
-  font-size: 0.9rem;
-}

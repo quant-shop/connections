@@ -1,5 +1,14 @@
 ---
 title: "Overview"
+page-layout: full
+execute: 
+  echo: false
 ---
 
-Welcome to **The Connections Project**, an initiative exploring how archival records and network analysis can illuminate the lives and work of Black mathematicians. This site introduces our core questions, archival collaborations, and evolving network analyses, and points to project outputs and resources.
+<div class="hero-background"></div>
+
+::: {.hero-content}
+**The Connections Project**
+
+Explore how archival records $\times$ network analysis expands our knowledge of the lives and work of Black mathematicians.
+:::
