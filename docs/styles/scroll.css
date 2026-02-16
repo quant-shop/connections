@@ -1,0 +1,133 @@
+:root {
+  --connections-blue: #1877F2;
+  --connections-brown: #BE7C2B;
+}
+
+a { 
+  color: var(--connections-blue); 
+}
+a:hover { 
+  color: #0f5ec0; 
+}
+h1, h2, h3, h4, h5, h6 { 
+  color: var(--connections-brown); 
+}
+
+.navbar-nav .nav-link { 
+  font-size: 0.9rem; 
+}
+.navbar-brand { 
+  font-size: 0.9rem; 
+}
+body { 
+  font-size: 0.9rem;
+  padding-left: 0 !important;
+  margin-left: 0 !important;
+}
+
+/* FIXED FULL-PAGE BACKGROUND */
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  background-image: url("../img/network-clear-background.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  z-index: -1;
+}
+
+/* HERO CONTENT - THEME OVERRIDE */
+div.hero-content {
+  all: initial !important;
+  background: rgba(255, 255, 255, 0.35) !important;
+  color: #000000 !important;
+  padding: 4rem 2rem !important;
+  border-radius: 1.25rem !important;
+  margin: 6rem auto 2rem !important;
+  max-width: 900px !important;
+  backdrop-filter: blur(12px) !important;
+  box-shadow: 0 8px 32px rgba(0,0,0,0.1) !important;
+  z-index: 1 !important;
+  text-align: center !important;
+  display: block !important;
+  font-family: inherit !important;
+  font-size: 1.1rem !important;
+  line-height: 1.6 !important;
+}
+
+.hero-content strong,
+.hero-content b {
+  color: #000000 !important;
+  font-weight: 700 !important;
+}
+
+/* TEAM GRID */
+.team-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+  margin: 2rem 0;
+}
+
+@media (max-width: 768px) {
+  .team-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* FILL LEFT MARGIN - NO BLANK SPACE */
+.container,
+.container-fluid {
+  max-width: 100% !important;
+  padding-left: 1.5rem !important;
+  padding-right: 1.5rem !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
+/* MOBILE PERFECT */
+@media (max-width: 768px) {
+  .container,
+  .container-fluid {
+    padding-left: 1rem !important;
+    padding-right: 1rem !important;
+  }
+  
+  .navbar {
+    padding-left: 0.5rem !important;
+    padding-right: 0.5rem !important;
+  }
+  
+  .hero-content {
+    margin: 2rem 1rem !important;
+    padding: 2rem 1.5rem !important;
+  }
+}
+
+/* TABLET */
+@media (min-width: 769px) and (max-width: 1024px) {
+  .container,
+  .container-fluid {
+    padding-left: 2rem !important;
+    padding-right: 2rem !important;
+  }
+}
+
+/* DESKTOP - FULL WIDTH */
+@media (min-width: 1025px) {
+  .container,
+  .container-fluid {
+    max-width: 1200px !important;
+    padding-left: 2rem !important;
+    padding-right: 2rem !important;
+  }
+}
+
+/* TEAM GRID MOBILE FIX */
+@media (max-width: 768px) {
+  .team-grid {
+    grid-template-columns: 1fr !important;
+    gap: 1.5rem !important;
+  }
+}

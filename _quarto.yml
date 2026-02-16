@@ -29,4 +29,4 @@ website:
 format:
   html:
     theme: cosmo
-    css: styles/styles.css
+    css: styles/scroll.css
