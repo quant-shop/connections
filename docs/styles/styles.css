@@ -3,38 +3,26 @@
   --connections-brown: #BE7C2B;
 }
 
-a { 
-  color: var(--connections-blue); 
-}
-a:hover { 
-  color: #0f5ec0; 
-}
-h1, h2, h3, h4, h5, h6 { 
-  color: var(--connections-brown); 
-}
+a { color: var(--connections-blue); }
+a:hover { color: #0f5ec0; }
+h1, h2, h3, h4, h5, h6 { color: var(--connections-brown); }
 
-.navbar-nav .nav-link { 
-  font-size: 0.9rem; 
-}
-.navbar-brand { 
-  font-size: 0.9rem; 
-}
-body { 
-  font-size: 0.9rem;
-  padding-left: 0 !important;
-  margin-left: 0 !important;
-}
+.navbar-nav .nav-link { font-size: 0.9rem; }
+.navbar-brand { font-size: 0.9rem; }
+body { font-size: 0.9rem; }
 
-/* FIXED FULL-PAGE BACKGROUND */
-body::before {
-  content: "";
+/* HERO BACKGROUND */
+.hero-background {
   position: fixed;
-  inset: 0;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
   background-image: url("../img/network-clear-background.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  z-index: -1;
+  z-index: -2;
 }
 
 /* HERO CONTENT - THEME OVERRIDE */
@@ -62,7 +50,6 @@ div.hero-content {
   font-weight: 700 !important;
 }
 
-/* TEAM GRID */
 .team-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -77,6 +64,12 @@ div.hero-content {
 }
 
 /* FILL LEFT MARGIN - NO BLANK SPACE */
+body {
+  font-size: 0.9rem;
+  padding-left: 0 !important;
+  margin-left: 0 !important;
+}
+
 .container,
 .container-fluid {
   max-width: 100% !important;
