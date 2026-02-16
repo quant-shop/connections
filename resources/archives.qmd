@@ -7,31 +7,30 @@ title: "Archival Collections"
 Collections organized by institution, with notes on network contributions.
 
 ### Howard University
-- <a href="https://library.howard.edu/moorland-spingarn" target="_blank">Moorland-Spingarn Research Center</a>  
-  Kelly Miller Papers, Negro Sanhedrin records. **Primary source for brokerage centrality** - documents Miller's connections between Du Bois, Washington, and HBCU presidents.
-- <a href="https://dh.howard.edu/university-archives" target="_blank">University Archives</a>  
-  Faculty lists, dean records (Miller 1903-1939). **Institutional overlap edges** between Haynes, Miller, and modern faculty.
+
+-   <a href="https://msrc.howard.edu/" target="_blank">Moorland-Spingarn Research Center</a>\
+    The Moorland-Spingarn Research Center (MSRC) is the largest and most comprehensive repository of books, documents, and ephemera on the global Black experience. Their mission is to provide access to history through diverse formats and to preserve it for generations to come.
+-   <a href="https://dh.howard.edu/huarchives/" target="_blank">University Archives</a>\
+    Various university records, including those made available by the MSRC.
 
 ### Catholic University of America
-- <a href="https://guides.lib.cua.edu/msscoll/photo-collection" target="_blank">University Archives Photograph Collection</a>  
-  Euphemia Haynes photos, dissertation records. **Visual + biographical metadata** for Haynes network position.
-- <a href="https://libraries.catholic.edu/archives-special-collections/university-archives.html" target="_blank">PhD Dissertation Collection</a>  
-  Haynes' 1943 *Symmetric Correspondences*. **Earliest node attributes** for first Black woman math PhD.
+
+-   <a href="https://findingaids.lib.catholic.edu/repositories/2/resources/99" target="_blank">The Haynes-Lofton Family Papers</a>\
+    Euphemia Haynes photos and archival records.
+
+### Emory University
+
+-   <a href="https://archives.libraries.emory.edu/repositories/7/resources/3112" target="_blank">Kelly Miller family papers</a>\
+    Kelly Miller photos and archival records.
 
 ### Library of Congress
-- <a href="https://findingaids.loc.gov/repositories/19/archival_objects/3143557" target="_blank">Manuscript Division - Kelly Miller Papers</a>  
-  Correspondence with Du Bois, Washington. **Highest-quality correspondence edges** - direct evidence of intellectual networks.
 
-### District of Columbia Public Library
-- <a href="https://www.dclibrary.org/researching-dc-history/dc-public-schools" target="_blank">DC Public Schools Historical Collection</a>  
-  Haynes' teaching records (Miner Teachers College). **Classroom mentorship ties** - student advising networks.
+-   <a href="https://www.loc.gov/collections/african-american-perspectives-rare-books/articles-and-essays/daniel-murray-a-collectors-legacy/kelly-miller/" target="_blank">African American Perspectives: Materials Selected from the Rare Book Collection</a>\
+    Kelly Miller.
+-   <a href="https://guides.loc.gov/african-american-innovation/gloria-ford-gilmer" target="_blank">African American Innovation, Invention, and Entrepreneurship in the Manuscript Division</a>\
+    Gloria Ford Gilmer.
 
-### Additional Repositories
-| Institution | Collection | Network Contribution |
-|-------------|------------|---------------------|
-| <a href="https://www.smith.edu/libraries/research/archives" target="_blank">Smith College Archives</a> | Haynes BA 1914 records | Early education nodes |
-| <a href="https://archivists.jhu.edu/repositories/3" target="_blank">Johns Hopkins MSA</a> | Miller grad coursework 1887-90 | First Black math grad student validation |
-| <a href="https://www.loc.gov/collections/naacp-papers" target="_blank">NAACP Papers (LOC)</a> | Miller-Du Bois correspondence | Civil rights → mathematics crossover edges |
-| <a href="https://anacostia.si.edu/collections" target="_blank">Anacostia Community Museum</a> | DC Black educators | Haynes school board networks (1966-67) |
+### American Mathematical Society (AMS)
 
-
+-   <a href="https://www.ams.org/publications/MBK-124-chap-1.pdf" target="_blank">Math Firsts Educational Resources</a>\
+    African American Women Mathematicians.

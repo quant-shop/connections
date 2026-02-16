@@ -17,7 +17,7 @@ engine: knitr
 
 ```{r echo=FALSE, message=FALSE, warning=FALSE}
 #| label: fig-network-classic
-#| fig-cap: "Classic sociogram: Black mathematicians' professional networks (1910-1950)"
+#| fig-cap: "Classic sociogram: Black mathematicians' professional networks"
 #| fig-width: 12
 #| fig-height: 8
 
@@ -55,7 +55,7 @@ ggraph(g, layout = "circle") +  # CLASSIC CIRCLE LAYOUT
   geom_node_text(aes(label = label), repel = TRUE, size = 4, 
                  fontface = "bold", color = "white", stroke = 0.3) +
   
-  # YOUR COLOR SCHEME
+  # COLOR SCHEME
   scale_edge_color_manual(values = c("correspondence" = "#BE7C2B", 
                                    "mentorship" = "#1877F2", 
                                    "institution" = "#F28E2B",
@@ -66,7 +66,7 @@ ggraph(g, layout = "circle") +  # CLASSIC CIRCLE LAYOUT
                                "Teacher" = "#96CEB4", "Modern" = "#FFEAA7")) +
   
   theme_void() +
-  labs(title = "Black Mathematicians Network (1910-1950):\\nHaynes-Miller-Cox Core",
+  labs(title = "Mock Black Mathematicians Network",
        subtitle = "Circle layout reveals central hubs and brokerage positions") +
   theme(legend.position = "bottom",
         plot.title = element_text(size = 16, face = "bold", hjust = 0.5),
